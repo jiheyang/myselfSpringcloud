@@ -12,7 +12,7 @@ public class ConsumerFeignApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerFeignApplication.class, args);
-		System.out.println("consumerFeign启动成功!");
+		System.out.println("=========consumerFeign启动成功!===================");
 	}
 
 }
