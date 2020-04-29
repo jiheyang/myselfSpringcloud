@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce505ecf-d168-4776-be30-8189fe4a8a91" name="Default" comment="2020-01-13简单登陆功能实现">
+    <list default="true" id="ce505ecf-d168-4776-be30-8189fe4a8a91" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerFeignApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConsumerFeignApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/spring/consumerfeign/ConsumerFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -124,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tree2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/resources/templates/pages/tree2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2511" column="13" lean-forward="false" selection-start-line="2511" selection-start-column="13" selection-end-line="2511" selection-end-column="13" />
+            <state relative-caret-position="108">
+              <caret line="2493" column="0" lean-forward="true" selection-start-line="2493" selection-start-column="0" selection-end-line="2493" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -143,6 +143,26 @@
                 <marker date="1588067237075" expanded="true" signature="115855:115867" ph="..." />
                 <marker date="1588067237075" expanded="true" signature="115994:116006" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/tb/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTblMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FileTblMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider-one/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/provider-one/src/main/java/com/spring/providerone/ureport/FileReportProvider.java" />
         <option value="$PROJECT_DIR$/provider-one/src/main/webapp/WEB-INF/config.properties" />
         <option value="$PROJECT_DIR$/provider-one/src/main/java/com/spring/providerone/ureport/provider/FileReportProvider.java" />
@@ -269,6 +288,7 @@
         <option value="$PROJECT_DIR$/consumer-feign/src/main/resources/templates/pages/tree.html" />
         <option value="$PROJECT_DIR$/consumer-feign/src/main/resources/templates/pages/tree2.html" />
         <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/spring/consumerfeign/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/spring/consumerfeign/ConsumerFeignApplication.java" />
       </list>
     </option>
   </component>
@@ -356,6 +376,62 @@
               <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfSpringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfSpringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -371,7 +447,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$USER_HOME$/my-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -682,7 +758,7 @@
       <workItem from="1588036154648" duration="11945000" />
       <workItem from="1588058637229" duration="4937000" />
       <workItem from="1588063834638" duration="4299000" />
-      <workItem from="1588125926881" duration="246000" />
+      <workItem from="1588125926881" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="2020-01-13简单登陆功能实现">
       <created>1578904980918</created>
@@ -705,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578983195112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交代码功能测试">
+      <created>1588128812604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588128812604</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -741,10 +824,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139642000" />
+    <option name="totallyTimeSpent" value="141086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -752,13 +836,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30055866" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44134077" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -825,13 +909,40 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-01-13简单登陆功能实现" />
     <MESSAGE value="2020-01-14 自动生成代码工具类 优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-01-14 自动生成代码工具类 优化" />
+    <MESSAGE value="提交代码功能测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码功能测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,20 +1035,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer-ribben/src/main/java/com/spring/consumerribben/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-one/src/main/java/com/spring/providerone/user/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer-ribben/src/main/java/com/spring/consumerribben/ConsumerRibbenApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1212,14 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/spring/consumerfeign/ConsumerFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-one/src/main/java/com/spring/providerone/ProviderOneApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1262,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/resources/templates/pages/tree2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2511" column="13" lean-forward="false" selection-start-line="2511" selection-start-column="13" selection-end-line="2511" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="2493" column="0" lean-forward="true" selection-start-line="2493" selection-start-column="0" selection-end-line="2493" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1278,6 +1367,30 @@
             <marker date="1588067237075" expanded="true" signature="115855:115867" ph="..." />
             <marker date="1588067237075" expanded="true" signature="115994:116006" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/tb/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FileTblMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/spring/consumerfeign/ConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
