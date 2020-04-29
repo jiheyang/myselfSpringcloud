@@ -1,0 +1,89 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>系统管理</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-treegrid/0.2.0/css/jquery.treegrid.min.css">
+</head>
+<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-table/1.12.0/extensions/treegrid/bootstrap-table-treegrid.js"></script>
+<script src="https://cdn.bootcss.com/jquery-treegrid/0.2.0/js/jquery.treegrid.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-treegrid/0.2.0/js/jquery.treegrid.min.js"></script>
+<body>
+<div class="container">
+    <h1>树形表格 ： Table Treegrid</h1>
+    <table id="table">
+    </table>
+    <br/>
+    <div class="left-menu">
+        <script type="text/javascript">
+            var $table = $('#table');
+            var menuss = typeof ${menuss}=='string'?JSON.parse(${menuss}):${menuss};
+            var data = menuss;
+            $(function() {
+                $table.bootstrapTable({
+                    data:data,
+                    idField: 'id',
+                    dataType:'jsonp',
+                    columns: [
+                        { field: 'name',  title: '名称' },
+                    ],
+
+
+                    //在哪一列展开树形
+                    treeShowField: 'name',
+                    //指定父id列
+                    parentIdField: 'pid',
+
+                    onclick: function (data) {
+                        console.log(data)
+                    },
+
+                    onResetView: function(data) {
+                        //console.log('load');
+                        $table.treegrid({
+                            initialState: 'collapsed',// 所有节点都折叠
+                            // initialState: 'expanded',// 所有节点都展开，默认展开
+                            treeColumn: 0,
+                            expanderExpandedClass: 'glyphicon glyphicon-minus',  //图标样式
+                            expanderCollapsedClass: 'glyphicon glyphicon-plus',
+                            onChange: function() {
+                                $table.bootstrapTable('resetWidth');
+                            }
+                        });
+
+                        //只展开树形的第一级节点
+                        $table.treegrid('getRootNodes').treegrid('expand');
+
+                    },
+                });
+            });
+        </script>
+    </div>
+    <div class="right-content">
+
+        <div style="margin:10px;">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active">Data</li>
+            </ol>
+            这里是内容
+        </div>
+    </div>
+</div>
+</body>
+
+
+</html>

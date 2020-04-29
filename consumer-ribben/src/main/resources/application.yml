@@ -1,0 +1,9 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: consumer-ribben
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:8001/eureka/

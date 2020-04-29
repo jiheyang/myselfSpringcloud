@@ -1,0 +1,5 @@
+
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú8†©¿÷÷-
+fsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8†©¿÷÷-
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(®è°…8†©¿÷÷-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»¥ôšúÿÿÿÿ8†©¿÷÷-

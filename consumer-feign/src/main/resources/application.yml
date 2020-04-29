@@ -1,0 +1,22 @@
+#server.port=8005
+
+#spring.application.name=consumer-feign
+
+#eureka.client.service-url.defaultZone=http://localhost:8001/eureka/
+
+#feign.hystrix.enabled=true
+
+server:
+  port: 8005
+spring:
+  application:
+    name: consumer-feign
+  freemarker:
+    template-loader-path: classpath:templates/pages/
+    suffix: .html
+    cache: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+

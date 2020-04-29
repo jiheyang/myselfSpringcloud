@@ -1,0 +1,11 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÂÔ¼ýÿÿÿÿ8†©¿÷÷-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú8†©¿÷÷-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢ãš€ùÿÿÿÿ8†©¿÷÷-
+fsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(òŠ°íþÿÿÿÿ8†©¿÷÷-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê¿ù£úÿÿÿÿ8†©¿÷÷-
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÍÔ‘–8†©¿÷÷-
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»¥ôšúÿÿÿÿ8†©¿÷÷-

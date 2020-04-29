@@ -1,0 +1,5 @@
+
+]squid:UselessImportCheck"4Remove this unused import 'org.slf4j.LoggerFactory'.(Ц€Џё8н÷ѓиш-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(Эљнl8н÷ѓиш-
+Usquid:UselessImportCheck"-Remove this unused import 'org.slf4j.Logger'.(нЎЃ68н÷ѓиш-

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-feign" />
+        <module name="consumer-ribben" />
+        <module name="demo" />
+        <module name="eureka-server" />
+        <module name="myselfSpringcloud" />
+        <module name="provider-one" />
+        <module name="provider-two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="consumer-feign" target="1.8" />
+      <module name="consumer-ribben" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="myself" target="1.8" />
+      <module name="myselfSpringcloud" target="1.5" />
+      <module name="provider-one" target="1.8" />
+      <module name="provider-two" target="1.8" />
+      <module name="tree" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
