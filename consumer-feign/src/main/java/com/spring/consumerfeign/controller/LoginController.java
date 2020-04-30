@@ -89,7 +89,7 @@ public class LoginController {
             model.addAttribute("menuss",JSON.toJSONString(menuTrees));
             HttpSession session = request.getSession();
             session.setAttribute("name",username);
-            return "tree2";
+            return "welCome";
         }
     }
 
