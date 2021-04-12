@@ -1,11 +1,11 @@
 package com.spring.consumerribben.entity;
 
+
 import lombok.Data;
 
 import java.io.Serializable;
-
 @Data
-public class User implements Serializable{
+public class User implements Serializable {
 
     private Integer id;
 
@@ -14,5 +14,4 @@ public class User implements Serializable{
     private Integer age;
 
     private String email;
-
 }
